@@ -14,11 +14,11 @@ export class HeroesComponent implements OnInit {
     this.selectedHero = hero;
   }
   
-  /* hero: Hero = {
+   hero: Hero = {
     id: 1,
     name:'Windstorm'
   
-  }; */
+  }; 
   heroes = HEROES;
   constructor() { }
 
